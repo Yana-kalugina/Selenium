@@ -24,7 +24,7 @@ public class CallbackTest {
     @AfterEach
     void tearsDown() {
         driver.quit();
-        driver=null;
+        driver = null;
     }
 
     @Test
